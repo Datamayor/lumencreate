@@ -67,7 +67,7 @@ body {
 .accordion-button:not(.collapsed)::after{
     background-image: url(./images/Group\ 35602.png); 
 }
-.container5{
+.container50{
    padding: 40px;
 }
 .container2 button{
@@ -80,6 +80,26 @@ line-height: 24px;
 
 padding: 40px 0 ;
 color: #303A42;
+}
+
+.container5{
+  width: 1440px;
+height: 321px;
+background: #2E368F;
+}
+
+.container5 p{
+  text-align: center;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
 }
 
 footer p{
