@@ -44,7 +44,7 @@ body {
     width: 1440px;
     height: 498px;
     background-repeat: no-repeat;
-    background-image: url("./images/Mask\ group.png");
+    background-image: url("./images/electric.png");
     background-size: cover;
   }
 
@@ -68,6 +68,66 @@ body {
 .container2{
     margin-top: 50px;
   padding: 3%;
+}
+.container2{
+  margin-top: 50px;
+padding: 3%;
+}
+
+.container2 p{
+width: 860px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 31px;
+/* or 148% */
+padding: 30px 0 0;
+
+color: #000000;
+}
+
+.container2 h1{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+margin: 40px 0  0;
+
+color: #0A9BD3;
+}
+
+.container2 img{
+  margin-right: 8px;
+}
+
+
+#rectangle{
+margin-bottom: 10px 0 20px;
+}
+
+.container3 button{
+  width: 310px;
+height: 64px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 24px;
+/* identical to box height, or 114% */
+
+text-align: center;
+
+color: #000000;
+background: #ffffff;
+border: none;
+margin: 20px 0 30px;
+}
+.container3 button:hover{
+  color: white;
+  background: #0A9BD3;
 }
 
 footer p{
