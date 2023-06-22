@@ -1,5 +1,5 @@
 body {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto;
   }
   .top {
@@ -10,7 +10,13 @@ body {
     height: 104px;
     margin: auto;
   }
-  
+  html {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
   ul {
     list-style-type: none;
     margin: 0;
@@ -23,7 +29,7 @@ body {
   }
   
   li a {
-    font-family: "Gilroy";
+    /* font-family: "Gilroy"; */
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -38,10 +44,18 @@ body {
     padding: 8px;
     text-decoration: none;
   }
-  
+  /* HEADER */
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10%;
+    margin-block: 1.75rem;
+}
   .container1 {
     position: relative;
-    width: 1440px;
+    margin: auto;
+    /* width: 1440px; */
     height: 498px;
     background-repeat: no-repeat;
     background-image: url("./images/7xm.xyz434135\ 1\ \(1\).png");
