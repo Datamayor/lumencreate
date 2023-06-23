@@ -99,10 +99,12 @@ hr{
   margin-block: 2.19rem 4.25rem;
 }
 
-a{
+footer a{
     text-decoration: none;
+    color: white;
 }
 #pa{
     text-align: right;
     justify-content: end;
+    color: white;
 }
