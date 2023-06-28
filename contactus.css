@@ -83,14 +83,22 @@ header{
   margin: auto;
   padding-block: 2rem 100px;
 }
+.in1{
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"]{
+  max-width: 16.8125rem;;
+}
 .container2-info{
   width: 1440px;
   margin: auto;
 }
+
 .container3 {
   padding: 20px;
 }
-textarea {
+/* textarea {
   width: 100%;
   margin-top: 20px;
   height: 250px;
@@ -103,8 +111,8 @@ textarea {
   font-size: 16px;
   resize: none;
   outline: none;
-}
-input[type="text"] {
+} */
+/* input[type="text"] {
   width: 100%;
   height: 62px;
   padding: 12px 20px;
@@ -113,9 +121,10 @@ input[type="text"] {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.04);
   border-radius: 10px;
-}
-input[type="email"] {
+} */
+/* input[type="email"] {
   width: 100%;
+  max-width: 16.8125rem;
   height: 62px;
   padding: 12px 20px;
   margin: 20px 0;
@@ -123,18 +132,18 @@ input[type="email"] {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.04);
   border-radius: 10px;
-}
-label {
+} */
+/* label {
   margin-top: 30px;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
   font-size: 21px;
   line-height: 26px;
-  /* identical to box height */
+  identical to box height
 
   color: #303a42;
-}
+} */
 
 form{
     margin-top: 30px;
@@ -164,11 +173,11 @@ border-radius: 5px;
     position: relative;
 }
 
-.group1{
+/* .group1{
     position: absolute;
     top: -17%;
     left: 30%;
-}
+} */
 
 .container5{
     /* width: 1440px; */
@@ -257,4 +266,14 @@ a{
 #pa{
     text-align: right;
     justify-content: end;
+}
+@media screen and (min-width: 1037px) {
+  header{
+      padding-inline: 3%;
+  }
+  .container2-info{
+    width: 1440px;
+    margin: 0px;
+  }
+  
 }
