@@ -1,5 +1,5 @@
 body {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto;
   }
   .top {
@@ -9,6 +9,13 @@ body {
     width: 1440px;
     height: 104px;
     margin: auto;
+  }
+  html {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
   ul {
@@ -23,7 +30,7 @@ body {
   }
   
   li a {
-    font-family: "Gilroy";
+    /* font-family: "Gilroy"; */
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -37,9 +44,16 @@ body {
     padding: 8px;
     text-decoration: none;
   }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10%;
+    margin-block: 1.75rem;
+  }
   
   .container1 {
-    width: 1440px;
+    /* width: 1440px; */
     height: 498px;
     background-repeat: no-repeat;
     background-image: url("./images/Mask\ group.png");
@@ -47,7 +61,7 @@ body {
   }
   
   .container1 h1 {
-    font-family: "Gilroy";
+    /* font-family: "Gilroy"; */
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -58,7 +72,8 @@ body {
   }
 .container2{
     margin: 50px 0;
-
+    max-width: 1440px;
+    margin: auto;
 }
 .accordion-button::after{
     background-image: url(./images/Group\ 35621.png);
@@ -70,39 +85,40 @@ body {
    padding: 40px;
 }
 .container2 button{
-    font-family: 'Gilroy';
-font-style: normal;
-font-weight: 700;
-font-size: 21px;
-line-height: 24px;
+  /* font-family: 'Gilroy'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
 /* identical to box height, or 113% */
 
-padding: 40px 0 ;
-color: #303A42;
+  padding: 40px 0 ;
+  color: #303A42;
 }
 
 .container5{
-  width: 1440px;
-height: 321px;
-background: #2E368F;
+  /* width: 1440px; */
+  height: 321px;
+  background: #2E368F;
+}
+.container-5-info{
+  max-width: 1440px;
+  margin: auto;
 }
 
 .container5 p{
   text-align: center;
-  font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 21px;
-line-height: 26px;
+  /* font-family: 'Gilroy'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
 /* identical to box height */
-
-
-color: #FFFFFF;
-
+  color: #FFFFFF;
 }
-
+/* FOOTER */
 footer p{
-    font-family: 'Gilroy';
+    /* font-family: 'Gilroy'; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -111,7 +127,6 @@ footer p{
     align-items: center;
     
     color: #D8D8DA;
-    
 }
 
 .container5 img{
@@ -128,6 +143,12 @@ footer{
 bottom: 0px;
 padding: 30px;
 background: #1C1F2A;
+}
+.footer-info{
+  padding-inline: 10%;
+  /* max-width: 1440px; */
+  display: block;
+  margin: auto;
 }
 
 hr{
@@ -147,10 +168,11 @@ hr{
     justify-content: space-between;
 }
 .container7{
-    margin: 30px 0 140px;
+    margin: 30px 0 107px;
 }
 
-a{
+footer a{
+  color: white;
     text-decoration: none;
 }
 #pa{

@@ -1,5 +1,5 @@
 body {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
 }
 .top {
@@ -23,7 +23,7 @@ li {
 }
 
 li a {
-  font-family: "Gilroy";
+  /* font-family: "Gilroy"; */
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -38,10 +38,29 @@ li a {
   padding: 8px;
   text-decoration: none;
 }
+html {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* HEADER */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10%;
+  margin-block: 1.75rem;
+}
+.nav-items ul{
+  display: flex;
+  gap: 39px;
+}
 
 .container1 {
   position: relative;
-  width: 1440px;
+  /* width: 1440px; */
   height: 498px;
   background-repeat: no-repeat;
   background-image: url("./images/electric.png");
@@ -56,7 +75,7 @@ li a {
 }
 
 .container1 h1 {
-  font-family: "Gilroy";
+  /* font-family: "Gilroy"; */
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -70,8 +89,10 @@ li a {
 padding: 3%;
 }
 .container2{
-margin-top: 50px;
-padding: 3%;
+  margin-top: 50px;
+  padding: 3%;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .container2 p{
@@ -88,7 +109,7 @@ color: #000000;
 }
 
 .container2 h1{
-font-family: 'Gilroy';
+/* font-family: 'Gilroy'; */
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -131,7 +152,7 @@ background: #0A9BD3;
 }
 
 footer p{
-  font-family: 'Gilroy';
+  /* font-family: 'Gilroy'; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -157,6 +178,12 @@ bottom: 0px;
 padding: 30px;
 background: #1C1F2A;
 }
+.footer-info{
+  padding-inline: 10%;
+  /* max-width: 1440px; */
+  display: block;
+  margin: auto;
+}
 
 hr{
   margin-bottom: 20px;
@@ -178,8 +205,9 @@ right: 1%;
   margin: 30px 0 140px;
 }
 
-a{
-  text-decoration: none;
+footer a{
+  color: white;
+    text-decoration: none;
 }
 #pa{
   text-align: right;
