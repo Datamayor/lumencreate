@@ -515,7 +515,7 @@ footer a{
 }
 @media screen and (max-width: 550px){
     img[src*="LUMENs.svg"]{
-        height: 1.4375rem;
+        height: 1.65rem;
     }
     .f-container-info{
         padding-block: 1.6rem;
