@@ -10,18 +10,38 @@
   <body>
     <!-- Header -->
     <header>
-      <a href="index.html"><img src="images/LUMENs.svg" alt="#" /></a>
-      <nav class="nav-items">
-        <ul>
-          <li><a href="#services-j">Services</a></li>
-          <li><a href="#">About Us</a></li>
-          <li>
-            <a href="./faq.html">FAQS</a>
-          </li>
-          <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
+      <nav>
+        <a href="index.html"><img src="images/LUMENs.svg" alt="#" /></a>
+          <div class="nav-link">
+              <ul class="nav-links">
+                  <li><a href="#services-j">Services</a> </li>
+                  <li><a href="Aboutus">About US</a> </li>
+                  <li><a href="faq.html">FAQS</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  
+              </ul>
+          </div>
+          <!-- <div class="login-btn">
+              <button class="white-btn" onclick="location.href='https://app.ellamediate.com/'">Login</button>
+              <button onclick="location.href='https://app.ellamediate.com/get-started'">Get Started</button>
+          </div> -->
+          <div class="hamburger">
+              <div class="bar"></div>
+          </div>
       </nav>
-    </header>
+  </header>
+  
+    <!-- FOR MOBILE -->
+    <div class="mobile-nav">
+      <ul class="m-nav-links">
+        <li><a href="#services-j">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li>
+          <a href="./faq.html">FAQS</a>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
     <!-- First Container -->
     <section class="first-container">
       <div class="f-container-info">
@@ -84,34 +104,32 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="footer-info">
-          <div class="row container7">
-            <div class="col-4">
-              <a href=""> <img src="images/LUMEN 1 (1).png" alt="" /></a>
-            </div>
-            <div class="col-4 para">
-              <a href=""><p>Services</p></a>
-              <a href=""><p>About Us</p></a>
-              <a href=""><p>FAQS</p></a>
-              <a href="contactus.html"><p>Contact Us</p></a>
-            </div>
-            <div class="col-4 links">
-              <a href=""
-                ><img
-                  class="link"
-                  src="images/linked-in-icon-white.svg.png"
-                  alt=""
-              /></a>
-            </div>
+      <div class="footer-info">
+        <div class="foot">
+          <a href="#"> <img src="images/LUMEN 1 (1).png" alt="" /></a>
+          <div class="socials">
+            <a href="#services-j"><p>Services</p></a>
+            <a href="#"><p>About Us</p></a>
+            <a href="./faq.html"><p>FAQS</p></a>
+            <a href="contact.html"><p>Contact Us</p></a>
           </div>
-          <hr />
-          <div class="row">
-            <a class="col-6" href="#"
-              >© 2023 Copyright. All rights reserved. Policies</a
-            >
-            <a class="col-6" id="pa" href="">policies</a>
-          </div>
+          <a href=""
+            ><img src="images/linked-in-icon-white.svg.png" alt=""
+          /></a>
         </div>
-      </footer>
+        <div class="socialss">
+          <a href="#services-j"><p>Services</p></a>
+          <a href="#"><p>About Us</p></a>
+          <a href="./faq.html"><p>FAQS</p></a>
+          <a href="contact.html"><p>Contact Us</p></a>
+        </div>
+        <hr />
+        <div class="c-rights">
+          <a href="#">© 2023 Copyright. All rights reserved.</a>
+          <a href="./termsandcondition.html">Policies</a>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js" > </script>
   </body>
 </html>
