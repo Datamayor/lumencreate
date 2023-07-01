@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 *,
 *::after,
 *::before{
@@ -80,6 +81,11 @@ button{
   gap: 1000px;
 } */
 /* HEADER */
+.nav-links a:hover,
+.socials p:hover{
+    color: #0A9BD3;
+    transition: 700ms;
+}
 nav{
     position: relative;
     display: flex;
@@ -262,7 +268,8 @@ label{
 }
 #sec1 input{
     width: 16.8rem;
-    padding-block: 2rem;
+    padding-block: 1.7rem;
+    padding-inline: 1rem;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.04);
     border: none;
@@ -271,7 +278,7 @@ label{
     margin-bottom: 2rem;
 }
 #sec1 input::placeholder{
-    padding-left: 1.56rem;
+    /* padding-left: 1rem; */
     font-size: 1rem;
     font-weight: 500;
     color: rgba(48, 58, 66, 0.5);
@@ -283,7 +290,10 @@ label{
 }
 #sec1 input[type="email"]{
     width: 100%;
+    
 }
+
+
 textarea {
     width: 100%;
     height: 250px;

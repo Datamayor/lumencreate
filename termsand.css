@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 body {
     /* max-width: 1440px; */
     margin: auto;
@@ -37,6 +38,11 @@ body {
     display: block;
     padding: 8px;
     text-decoration: none;
+  }
+  .nav-links a:hover,
+  .socials p:hover{
+    color: #0A9BD3;
+    transition: 700ms;
   }
   html {
     font-family: Poppins;

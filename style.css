@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 *,
 *::after,
 *::before{
@@ -17,6 +19,11 @@ a {
     font-weight: 600;
     font-size: 1.125rem;
     
+}
+.nav-links a:hover,
+.socials p:hover{
+    color: #0A9BD3;
+    transition: 700ms;
 }
 html {
     font-family: Poppins;
@@ -86,9 +93,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     /* max-width: 1440px; */
-    padding-block: 2rem;
+    padding-block: 1.5rem;
     margin: auto;
-    padding-inline: 4%;
+    padding-inline: 3%;
     z-index: 100;
     background: #ffffff;
     
@@ -97,7 +104,7 @@ nav{
     display: flex;
     gap: 39px;
 } */
-/* MOBILE  */
+/* MOBILE NAV */
 
 .hamburger{
     position: relative;
@@ -228,7 +235,7 @@ nav .nav-links{
 }
 .f-container-info{
     max-width: 1440px;
-    padding-block: 4.4rem;
+    padding-block: 2rem 4.4rem;
     display: flex;
     margin: auto;
     align-items: center;
@@ -241,7 +248,7 @@ img[src*="forcont1.png"]{
     flex: 1;
 } */
 .f-cont1 h1{
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     font-weight: 700;
     font-family: poppins;
     line-height: 79px;
@@ -457,13 +464,19 @@ footer a{
 .socialss{
     display: none;
 }
+@media screen and (max-width: 1281px) and (min-width: 1279px) {
+    .f-cont1 h1{
+        font-size: 3.2rem;
+        line-height: 65px;
+    }
+}
 
 @media screen and (min-width: 1037px) {
-    header{
+    /* header{
         padding-inline: 3%;
-    }
+    } */
     .f-container-info{
-        padding-inline: 2%;
+        padding-inline: 3%;
     }
     /* .f-cont1 h1{
         font-size: 2.8rem;
@@ -497,7 +510,7 @@ footer a{
 
 @media screen and (max-width: 900px) {
     .f-container-info{
-        padding-inline: 2%;
+        padding-inline: 3%;
         gap: 1.15rem;
         flex-wrap: wrap;
     }
